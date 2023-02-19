@@ -12,7 +12,7 @@ const me = {
   // TODO - add properties here
   'firstName lastName': 'Samantha Marlowe',
   'hasSiblings': 'true',
-  'shoeCount': '12',
+  'shoeCount': 12,
   'favThreeFoods': ['sushi', 'eggs', 'popcorn']
 };
 console.log('A little about me:', me);
@@ -42,10 +42,10 @@ console.log(me.favThreeFoods[2]);
   - Console.log your updated shoe count. 
 */
 console.log(me.shoeCount);
-//me.shoeCount = me.shoeCount+1;
+me.shoeCount = me.shoeCount +1;
 //me['shoeCount'] = me['shoeCount'] + 1 || 1;
 //me.shoeCount = (me.shoeCount || 0) + 1;
-me.shoeCount = 13;
+//me.shoeCount = 13;
 console.log(me.shoeCount);
 
 
@@ -57,3 +57,4 @@ console.log(me.shoeCount);
 */
 me.favoriteColor = 'aquamarine';
 console.log(me.favoriteColor);
+console.log(me);
